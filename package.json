@@ -1,7 +1,7 @@
 {
   "name": "@ceez/utils",
   "description": "Utils",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Ceez",
   "bugs": "https://github.com/ceez4r/sfdx-utils/issues",
   "dependencies": {
@@ -45,8 +45,8 @@
     "commands": "./lib/commands",
     "bin": "sfdx",
     "topics": {
-      "hello": {
-        "description": "Commands to say hello."
+      "community": {
+        "open": "Commands to open salesforce community by name"
       }
     },
     "devPlugins": [
