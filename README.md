@@ -2,6 +2,11 @@ utils
 =====
 
 Utils for Onboarders team
+* [Install plugin](#installing-plugin)
+```sh-session
+sfdx plugins:install https://github.com/ceez4r/sfdx-utils
+sfdx plugins:link
+```
 
 [![Version](https://img.shields.io/npm/v/utils.svg)](https://npmjs.org/package/utils)
 [![CircleCI](https://circleci.com/gh/Ceez/utils/tree/master.svg?style=shield)](https://circleci.com/gh/Ceez/utils/tree/master)
