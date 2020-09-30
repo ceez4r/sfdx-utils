@@ -53,7 +53,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "@ceez4r/sfdx-utils",
+  "repository": "https://github.com/ceez4r/sfdx-utils",
   "scripts": {
     "lint": "tslint --project . --config tslint.json --format stylish",
     "postpack": "rm -f oclif.manifest.json",

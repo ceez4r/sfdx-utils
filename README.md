@@ -1,7 +1,6 @@
 # Installation
 ```console
-sfdx plugins:install https://github.com/ceez4r/sfdx-utils
-sfdx plugins:link utils
+sfdx plugins:install @ceez/utils
 ```
 # Usage
 ```console
