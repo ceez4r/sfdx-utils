@@ -2,13 +2,13 @@ import { flags, SfdxCommand } from '@salesforce/command';
 import { Messages } from '@salesforce/core';
 import { AnyJson } from '@salesforce/ts-types';
 import openBrowser = require('opn');
-import {Domain, Network} from '../../../shared/typesDef';
+import {Domain, Network} from '../../shared/typesDef';
 // Initialize Messages with the current plugin directory
 Messages.importMessagesDirectory(__dirname);
 
 // Load the specific messages for this file. Messages from @salesforce/command, @salesforce/core,
 // or any library that is using the messages framework can also be loaded this way.
-const messages = Messages.loadMessages('utils', 'org');
+const messages = Messages.loadMessages('utils', 'community');
 
 export default class CommunityOpen extends SfdxCommand {
 
