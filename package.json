@@ -1,9 +1,9 @@
 {
-  "name": "utils",
-  "description": "Utils for Onboarders team",
+  "name": "@ceez/utils",
+  "description": "Utils",
   "version": "0.0.0",
   "author": "Ceez",
-  "bugs": "https://github.com/Ceez/utils/issues",
+  "bugs": "https://github.com/ceez4r/sfdx-utils/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -36,7 +36,7 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/Ceez/utils",
+  "homepage": "https://github.com/ceez4r/sfdx-utils",
   "keywords": [
     "sfdx-plugin"
   ],
@@ -53,7 +53,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "Ceez/utils",
+  "repository": "@ceez4r/sfdx-utils",
   "scripts": {
     "lint": "tslint --project . --config tslint.json --format stylish",
     "postpack": "rm -f oclif.manifest.json",

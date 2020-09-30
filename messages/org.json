@@ -1,6 +1,4 @@
 {
-  "commandDescription": "Allows to login to a Community using it's name, username and password",
-  "nameFlagDescription": "name of the community",
-  "usernameFlagDescription": "username of a user in a community",
-  "passFlagDescription": "password of a user in a community"
+  "commandDescription": "Allows to open Community by it's name",
+  "nameFlagDescription": "name of the community"
 }

@@ -10,21 +10,19 @@ Messages.importMessagesDirectory(__dirname);
 // or any library that is using the messages framework can also be loaded this way.
 const messages = Messages.loadMessages('utils', 'org');
 
-export default class CommunityLogin extends SfdxCommand {
+export default class CommunityOpen extends SfdxCommand {
 
   public static description = messages.getMessage('commandDescription');
 
   public static examples = [
-  `$ sfdx utils:community:login -n example -u scratchOrgAlias -x username -p password`
+  `$ sfdx utils:community:open -n example -u scratchOrgAlias`
   ];
 
   public static args = [{name: 'file'}];
 
   protected static flagsConfig = {
     // flag with a value (-n, --name=VALUE)
-    name: flags.string({char: 'n', description: messages.getMessage('nameFlagDescription')}),
-    username: flags.string({char: 'x', description: messages.getMessage('usernameFlagDescription')}),
-    password: flags.string({char: 'p', description: messages.getMessage('passFlagDescription')}),
+    name: flags.string({char: 'n', description: messages.getMessage('nameFlagDescription')})
   };
 
   // Comment this out if your command does not require an org username
